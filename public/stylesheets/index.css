@@ -1,0 +1,344 @@
+/* line 45, ../../sass/_base.scss */
+* {
+  clear: both;
+}
+
+/* line 47, ../../sass/_base.scss */
+body {
+  background: url(../img/bkgrd.gif) repeat-y center;
+  font-size: 12px;
+  width: 100%;
+}
+
+/* line 4, ../../sass/_header.scss */
+.nav {
+  display: block;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 35px;
+  font-family: "Lato", sans-serif;
+  color: #363636;
+  background: black;
+  font-size: 1em;
+}
+/* line 15, ../../sass/_header.scss */
+.nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 20, ../../sass/_header.scss */
+.nav ul {
+  display: inline-block;
+  padding: 0px;
+  margin-left: 550px;
+  margin-top: 0;
+}
+/* line 26, ../../sass/_header.scss */
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  width: auto;
+  height: 25px;
+  margin-right: 25px;
+  padding-top: 8px;
+}
+/* line 36, ../../sass/_header.scss */
+.nav .account {
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 25px;
+  background: black;
+  left: 69%;
+  text-align: center;
+}
+/* line 46, ../../sass/_header.scss */
+.nav .branding {
+  position: relative;
+  left: 500px;
+  margin-top: 2px;
+  font-size: 1.8em;
+  font-family: "Arvo", serif;
+  text-transform: lowercase;
+  display: inline-block;
+  float: left;
+  text-indent: 10px;
+  color: #2a7357;
+}
+
+/* line 2, ../../sass/index.scss */
+.back {
+  font-family: "Lato", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #2a7357;
+  width: 210px;
+  position: absolute;
+  left: 900px;
+  top: 60px;
+  display: inline-block;
+  margin-left: 10px;
+  height: 17px;
+  width: 45px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -o-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  padding-top: 1px;
+  text-align: center;
+}
+/* line 19, ../../sass/index.scss */
+.back a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 25, ../../sass/index.scss */
+.main-content {
+  display: block;
+  position: relative;
+  top: 30px;
+  left: 300px;
+  margin: 0 auto;
+  width: 80%;
+  font-family: "Lato", sans-serif;
+  font-size: 0.9em;
+  color: #4c4642;
+}
+
+/* line 37, ../../sass/index.scss */
+.small-button2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #4c4642;
+  width: 210px;
+  display: inline-block;
+  margin-left: 10px;
+  height: 17px;
+  width: 45px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -o-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  padding-top: 1px;
+  text-align: center;
+}
+/* line 50, ../../sass/index.scss */
+.small-button2 a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 56, ../../sass/index.scss */
+.small-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #4c4642;
+  width: 120px;
+  display: inline-block;
+  margin-left: 10px;
+  height: 17px;
+  width: 45px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -o-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  padding-top: 1px;
+  text-align: center;
+}
+/* line 69, ../../sass/index.scss */
+.small-button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 75, ../../sass/index.scss */
+h4 {
+  width: 450px;
+  margin-bottom: 40px;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  color: #4c4642;
+  margin-left: 20px;
+}
+
+/* line 84, ../../sass/index.scss */
+.content {
+  display: block;
+  position: relative;
+  top: 50px;
+  margin: 0 auto;
+  width: 300px;
+  font-family: "Lato", sans-serif;
+  font-size: 0.9em;
+  color: #4c4642;
+}
+/* line 94, ../../sass/index.scss */
+.content .intro {
+  width: 600px;
+  position: relative;
+  left: -108px;
+  margin: 0 auto;
+  display: block;
+}
+/* line 102, ../../sass/index.scss */
+.content .blurb {
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  color: #363636;
+}
+/* line 106, ../../sass/index.scss */
+.content .blurb span {
+  color: #2a7357;
+  text-transform: uppercase;
+  size: 1.2em;
+}
+/* line 113, ../../sass/index.scss */
+.content .actions {
+  padding-left: 20px;
+}
+/* line 115, ../../sass/index.scss */
+.content .actions .button {
+  display: block;
+  height: 23px;
+  width: 65%;
+  margin-bottom: 5px;
+  background: #2a7357;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -o-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  text-align: center;
+  padding-top: 7px;
+}
+/* line 125, ../../sass/index.scss */
+.content .actions .button a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+/* line 134, ../../sass/index.scss */
+.submission {
+  margin-top: 20px;
+  border-top: 1px dotted #4c4642;
+  width: 400px;
+}
+
+/* line 140, ../../sass/index.scss */
+.title {
+  display: inline;
+  font-family: "Arvo", serif;
+  text-transform: lowercase;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+/* line 148, ../../sass/index.scss */
+.rating {
+  position: relative;
+  top: 5px;
+  display: inline-block;
+}
+/* line 149, ../../sass/index.scss */
+.rating img {
+  width: 77px;
+}
+
+/* line 155, ../../sass/index.scss */
+.company {
+  size: 1.2em;
+  display: inline;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  size: 0.8em;
+}
+
+/* line 163, ../../sass/index.scss */
+.woo {
+  position: absolute;
+  z-index: -1;
+  top: 132px;
+  left: -82px;
+}
+/* line 167, ../../sass/index.scss */
+.woo img {
+  height: 320px;
+  width: 670px;
+}
+
+/* line 174, ../../sass/index.scss */
+.block {
+  display: block;
+  margin-bottom: 20px;
+}
+/* line 177, ../../sass/index.scss */
+.block .title {
+  display: inline;
+  font-family: "Arvo", serif;
+  text-transform: lowercase;
+  font-size: 1.6em;
+}
+/* line 184, ../../sass/index.scss */
+.block .company {
+  size: 1em;
+  display: inline;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  size: 0.8em;
+}
+
+/* line 193, ../../sass/index.scss */
+h1 {
+  color: #2a7357;
+  font-family: "Arvo", serif;
+  font-size: 28px;
+  text-transform: lowercase;
+}
+
+/* line 200, ../../sass/index.scss */
+h2 {
+  font-family: "Cutive", serif;
+}
+
+/* line 204, ../../sass/index.scss */
+h3 {
+  font-family: "Lato", sans-serif;
+  size: 1.2em;
+}
+
+/* line 209, ../../sass/index.scss */
+.wrapper {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: 30px;
+}

@@ -1,0 +1,18 @@
+.notices
+  - if notice
+    notice
+
+.nav
+  .branding
+    | POST!
+  ul
+    li = link_to "Home", root_path
+    li = link_to "Browse", jobs_path
+    li = link_to "Submit", submit_url 
+    li = link_to "About", about_url
+    li#account 
+      a href="#" Your Account
+    - if signed_in?
+      .account = link_to "Sign Out", logout_path, :method => :delete
+    - else
+      .account = link_to "Sign In", login_path

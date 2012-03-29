@@ -1,0 +1,48 @@
+.wrapper
+  .main-content
+    h2 Job Details
+    .title = "#{@job.name} @ "
+    .company = @job.company
+    .rating = image_tag "../img/stars.gif"
+    - if notice
+            = notice
+    p
+
+    h2 Reviews
+
+    .box
+      em What people are saying:
+      .excerpt
+        - @job.reviews.each do |review|
+          em = "#{review.eval}"
+
+    h2 Submit a Review!
+    = form_for [@job, @new_review] do |f|
+      .field
+        = f.label :rating
+        = f.text_field :rating
+      .field
+        = f.label :start_date
+        = f.text_field :start
+      .field
+        = f.label :end_date
+        = f.text_field :end
+      p
+      .field
+        = f.label :atmosphere
+        p
+        = f.text_area(:atmosphere, :size => "40x3")
+      .field
+        = f.label :skills
+        p
+        = f.text_area(:skills, :size => "40x3")
+      .field
+        = f.label :duties
+        p
+        = f.text_area(:duties, :size => "40x3")
+      .field
+        = f.label :eval
+        p
+        = f.text_area(:eval, :size => "40x10")
+      .actions
+        = f.submit
